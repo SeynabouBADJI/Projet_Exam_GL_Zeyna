@@ -1,0 +1,144 @@
+:root{
+    --primary-color : #D8A43E;
+}
+
+/* style footer */
+footer{
+    display: flex;
+    background: #000;
+    margin-top: auto ;
+    height: auto;
+} 
+
+#footer{
+    display: inherit;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    color: #FFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 18px;
+
+}
+
+#announce{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 15px 0;
+}
+
+#announce-title{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#announce-title span{
+    color: var(--primary-color);
+}
+
+#announce-info{
+    color: rgba(255, 255, 255, 0.70);;
+}
+
+
+#subscribe{
+    border-radius: 7px;
+    width:300px ;
+    height: 50px;
+    background: transparent;
+    border: 2px solid var(--primary-color);
+    font: inherit;
+}
+
+#subscribe:hover{
+    cursor: pointer;
+    background: #FFF;
+    border: 2px solid var(--primary-color);
+    transition: ease-in-out  all .5s;
+
+}
+
+#btn-subscribe{
+    height: 50px;
+    padding: 10px 32px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background: #EEE;
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 600;
+}
+#btn-subscribe:hover{
+    cursor: pointer;
+    background: var(--primary-color);
+    color:#fff;
+    transition: ease-in-out  all .5s;
+}
+
+#footer form + div {
+    border-top: 1px solid rgba(255, 255, 255, 0.5); 
+    margin-top: 20px; 
+    padding-top: 20px; 
+    width: 70%;
+}
+
+#contact{
+    display: flex; 
+    flex-direction: column;
+    gap: 10px ;
+}
+
+#contact p{
+    color: rgba(255, 255, 255, 0.70);
+}
+
+#contact-info{
+    display: inherit;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+#contact-info-email,
+#contact-info-tel,
+#contact-info-socialmedia
+{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+}
+
+#contact-info-email p,
+#contact-info-tel p,
+#contact-info-socialmedia p{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#footer #contact + div {
+    border-top: 1px solid rgba(255, 255, 255, 0.5); 
+    margin-top: 20px; 
+    padding-top: 20px; 
+    width: 60%;
+}
+
+#copyright{
+    display : flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+#copyright{
+    color: rgba(255, 255, 255, 0.7);
+    font-style: italic;
+    margin-bottom: 15px;
+}
