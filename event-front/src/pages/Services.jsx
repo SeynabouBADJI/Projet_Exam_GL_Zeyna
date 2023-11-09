@@ -1,13 +1,15 @@
 import { Outlet } from "react-router-dom";
+
 import Footer from "../components/Footer";
 import '../styles/Home.css';
+import NosServices from "../components/NosServices";
 
 
 function Services (){
     return(
         <>
             <div id='Home'>
-                <h1>Services</h1>
+                <NosServices/>
                 <Footer/>
             </div>
             <Outlet/>

@@ -28,11 +28,6 @@ function Devis() {
                             </div>
                             <br></br>
                             <div class="mb-3">
-                                <label >Prenom : </label>
-                                <input type="text"  class="form-control" placeholder="Votre Prenom" size="60"/>
-                            </div>
-                            <br></br>
-                            <div class="mb-3">
                                 <label >E-mail : </label>
                                 <input type="email"  class="form-control" placeholder="Votre E-mail" size="60"/>
                             </div>

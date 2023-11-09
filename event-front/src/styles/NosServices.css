@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto&display=swap');
+.titre{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:#D8A43E ;
+    font-weight: 200;
+    font-style: italic;
+    font-family: 'Libre Baskerville',sans-serif;
+}
+
+.nosServices {
+    font-family: 'Bukhari';
+    margin-left: 5px; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */
+    gap: 10px; /* Espace entre les composants */
+    margin-right: 0px;
+}
+
+.nosEvents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */
+    gap: 30px; /* Espace entre les composants */
+}
+
+.rightSide{
+    margin-left: 200px;
+    margin-top: 200px;
+    padding-left: 20px;
+    font-style:italic;
+    background-color: #D8A43E;
+    border-radius: 5%;
+    width:300px;
+    color:white;
+    font-family: 'Bukhari';
+    box-shadow: 10px 10px 15px #888;
+    height:700px;
+}
+
+.checkmark{
+    position: relative;
+
+}
+
+.checkmark::before{
+    content: "\2713"; /* Code Unicode pour le symbole de la coche (✓) */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20px; /* Taille de la coche */
+    color: white; /* Couleur de la coche */
+}
+i{
+    color: black;
+}
+p{
+    font-size: 20px;
+    font-style:normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.leftSide{
+    text-align: center;
+}

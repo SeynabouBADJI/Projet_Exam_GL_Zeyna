@@ -1,0 +1,18 @@
+.Mariage{
+    box-shadow: 5px 10px 10px #888;
+    border-radius: 5%;
+    padding-bottom: 2%;
+}
+i{
+    color: #D8A43E;
+}
+a{
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: #D8A43E; 
+    color: #fff; 
+    text-decoration: none; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
