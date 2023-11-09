@@ -1,0 +1,38 @@
+h1 +h2{
+    text-align: center;
+}
+p h4{
+    text-align: center;   
+}
+.contents{
+    background-image: url(p1.png);
+    padding-top: 50px;  
+    margin-right: auto;
+}
+ h4{
+    text-align: justify;
+}
+.buttons { 
+    width: 100%;
+    text-align: right;
+}
+div input {
+    margin-right: 10px; 
+}
+form {
+    margin: 5%;
+    width: 400px;
+    
+}
+
+.recherche select{
+    padding: 10px;
+    width: 50%;
+}
+.recherche h3{
+    text-align: left;
+}
+form select {
+    background-color: #ffffff;
+    padding: 10px;
+}

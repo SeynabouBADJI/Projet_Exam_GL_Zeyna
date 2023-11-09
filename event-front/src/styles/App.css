@@ -3,7 +3,6 @@ html,#root{
 }
 
 body,#root{
-  color: #fff;
   font-family: 'Libre Baskerville', serif;
   font-family: 'Roboto', sans-serif;
   display: flex;

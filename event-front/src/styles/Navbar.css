@@ -5,6 +5,7 @@
 #navbar{
     background: #000;
     height: 75px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
 #navbar-content{
@@ -25,10 +26,7 @@
 
 #nav-item #logo{
     height: auto;
-    font-family: 'Libre Baskerville';
-    font-size: 38px;
-    margin-right:auto;
-    color: var(--primary-color);
+    
 
 }
 
@@ -85,7 +83,7 @@
     transform: scaleX(1);
 }
 
-#links a.active{
+#links ul li a.active{
     border-bottom: 3px solid var(--primary-color);
     padding-bottom: 5px;
 }
@@ -199,7 +197,7 @@
     text-decoration: none;
 }
 
-#login{
+#connect-buttons a:nth-child(1){
     color:white ;
     border: 2px solid var(--primary-color);
     box-shadow: 0px 4px 4px 0px rgba(183, 133, 68, 0.50);
@@ -207,7 +205,7 @@
     transition: transform 0.3s; 
 }
 
-#signup{
+#connect-buttons a:nth-child(2){
     border-radius: 10px;
     background: var(--primary-color);
     box-shadow: 0px 6px 8px 0px rgba(183, 133, 68, 0.50);
@@ -218,7 +216,7 @@
     transform: scale(1.1); 
 }
 
-#login:hover{
+#connect-buttons a:nth-child(1):hover{
     background-color:var(--primary-color);
     color: white;
     border: 2px solid rgba(0, 0, 0, 0.7);
